@@ -13,6 +13,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+// Test Intelligence Added v1.0
+
 import org.ajoberstar.grgit.Grgit
 
 import java.nio.charset.StandardCharsets
@@ -403,7 +405,7 @@ subprojects {
       }
     }
   }
-//comment
+
   // The suites are for running sets of tests in IDEs.
   // Gradle will run each test class, so we exclude the suites to avoid redundantly running the tests twice.
   def testsToExclude = ['**/*Suite.class', '**/RecordsIteratorTest.*']
