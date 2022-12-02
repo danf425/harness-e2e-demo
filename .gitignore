@@ -56,3 +56,13 @@ jmh-benchmarks/src/main/generated
 **/.jqwik-database
 **/src/generated
 **/src/generated-test
+.vscode
+*.terraform
+*.tfstate
+*.tfstate.backup
+.DS_Store
+*.tfvars
+*.lock
+*.lock.info
+*.hcl
+k8s/logshop/metrics-server/
