@@ -12,6 +12,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+// TI v1.0
 
 import org.ajoberstar.grgit.Grgit
 
@@ -403,7 +404,6 @@ subprojects {
       }
     }
   }
-//comment
   // The suites are for running sets of tests in IDEs.
   // Gradle will run each test class, so we exclude the suites to avoid redundantly running the tests twice.
   def testsToExclude = ['**/*Suite.class', '**/RecordsIteratorTest.*']
